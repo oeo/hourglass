@@ -15,7 +15,7 @@ A time abstraction crate for Rust that allows you to test time-dependent code by
 Add to your `Cargo.toml`:
 ```toml
 [dependencies]
-hourglass_rs = "0.1.0"
+hourglass_rs = "0.1.1"
 ```
 
 ## Usage

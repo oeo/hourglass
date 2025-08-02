@@ -106,7 +106,7 @@ struct Account {
 
 #[tokio::main]
 async fn main() {
-    println!("=== Hourglass Banking Interest Calculator Example ===\n");
+    println!("=== hourglass-rs Banking Interest Calculator Example ===\n");
     
     // Test mode for demonstration
     let time = SafeTimeProvider::new(

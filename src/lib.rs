@@ -1,4 +1,4 @@
-//! # Hourglass
+//! # hourglass-rs
 //! 
 //! A time abstraction crate that provides consistent time handling for both 
 //! production and test environments, with safe time manipulation capabilities for testing.

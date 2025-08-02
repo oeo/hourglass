@@ -31,7 +31,7 @@ async fn wait_until_task(time: SafeTimeProvider, deadline: DateTime<Utc>) -> Str
 
 #[tokio::main]
 async fn main() {
-    println!("=== Hourglass Async Wait Example ===\n");
+    println!("=== hourglass-rs Async Wait Example ===\n");
     
     // Test mode demonstration
     println!("Test Mode - Time Manipulation with Concurrent Tasks:");

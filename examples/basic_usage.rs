@@ -3,7 +3,7 @@ use chrono::Duration;
 
 #[tokio::main]
 async fn main() {
-    println!("=== Hourglass Basic Usage Example ===\n");
+    println!("=== hourglass-rs Basic Usage Example ===\n");
     
     // Production usage
     println!("1. Production Mode (System Time):");
