@@ -1,0 +1,19 @@
+[package]
+name = "hourglass"
+version = "0.1.0"
+edition = "2024"
+authors = ["taky <taky@taky.com>"]
+description = "A time abstraction crate for testing time-dependent code"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/oeo/hourglass"
+keywords = ["time", "testing", "mock", "chrono", "async"]
+categories = ["date-and-time"]
+
+[dependencies]
+chrono = "0.4"
+tokio = { version = "1", features = ["time", "rt", "macros"] }
+async-trait = "0.1"
+parking_lot = "0.12"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
