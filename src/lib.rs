@@ -14,7 +14,7 @@
 //! ## Quick Start
 //! 
 //! ```rust
-//! use hourglass::{SafeTimeProvider, TimeSource};
+//! use hourglass_rs::{SafeTimeProvider, TimeSource};
 //! use chrono::Duration;
 //! 
 //! #[tokio::main]
@@ -31,7 +31,7 @@
 //! ## Testing Example
 //! 
 //! ```rust
-//! use hourglass::{SafeTimeProvider, TimeSource};
+//! use hourglass_rs::{SafeTimeProvider, TimeSource};
 //! use chrono::Duration;
 //! 
 //! #[tokio::test]

@@ -1,4 +1,4 @@
-use hourglass::{SafeTimeProvider, TimeSource};
+use hourglass_rs::{SafeTimeProvider, TimeSource};
 use chrono::{DateTime, Duration, Utc, Datelike};
 use std::collections::HashMap;
 

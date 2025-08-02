@@ -1,4 +1,4 @@
-use hourglass::{SystemTimeProvider, TestTimeProvider, TimeProvider};
+use hourglass_rs::{SystemTimeProvider, TestTimeProvider, TimeProvider};
 use chrono::{DateTime, Duration, Utc};
 use std::sync::Arc;
 

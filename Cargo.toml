@@ -1,11 +1,11 @@
 [package]
-name = "hourglass"
+name = "hourglass-rs"
 version = "0.1.0"
 edition = "2024"
 authors = ["taky <taky@taky.com>"]
 description = "A time abstraction crate for testing time-dependent code"
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/oeo/hourglass"
+license = "MIT"
+repository = "https://github.com/oeo/hourglass-rs"
 keywords = ["time", "testing", "mock", "chrono", "async"]
 categories = ["date-and-time"]
 

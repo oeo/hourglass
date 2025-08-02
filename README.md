@@ -1,4 +1,4 @@
-# Hourglass
+# hourglass-rs 
 
 A time abstraction crate for Rust that allows you to test time-dependent code by manipulating time in tests while maintaining zero overhead in production.
 
@@ -15,7 +15,7 @@ A time abstraction crate for Rust that allows you to test time-dependent code by
 Add to your `Cargo.toml`:
 ```toml
 [dependencies]
-hourglass = "0.1.0"
+hourglass_rs = "0.1.0"
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ hourglass = "0.1.0"
 Write your time-dependent code using `SafeTimeProvider`:
 
 ```rust
-use hourglass::{SafeTimeProvider, TimeSource};
+use hourglass_rs::{SafeTimeProvider, TimeSource};
 use chrono::Duration;
 
 async fn daily_task(time_provider: &SafeTimeProvider) {
@@ -79,7 +79,7 @@ async fn test_daily_task() {
 Calculate compound interest with testable time:
 
 ```rust
-use hourglass::{SafeTimeProvider, TimeSource};
+use hourglass_rs::{SafeTimeProvider, TimeSource};
 use chrono::{DateTime, Duration, Utc};
 
 struct InterestCalculator {

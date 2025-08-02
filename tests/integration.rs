@@ -1,4 +1,4 @@
-use hourglass::{SafeTimeProvider, TimeSource};
+use hourglass_rs::{SafeTimeProvider, TimeSource};
 use chrono::{Duration, DateTime, Utc};
 use std::sync::Arc;
 use tokio::sync::Mutex;
